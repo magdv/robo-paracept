@@ -35,11 +35,6 @@
         "phpunit/phpunit": ">=9.0",
         "codeception/phpunit-wrapper": "^9.0.6"
     },
-    "config": {
-        "platform": {
-            "php": "7.4.0"
-        }
-    },
     "scripts": {
         "unit": "vendor/bin/phpunit --bootstrap tests/bootstrap.php tests/ --exclude-group example --stderr -v --debug",
         "lint": "vendor/bin/phplint -v ./ --exclude=vendor",
